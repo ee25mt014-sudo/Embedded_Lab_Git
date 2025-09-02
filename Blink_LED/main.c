@@ -2,19 +2,19 @@
 #include "tm4c123gh6pm.h"
 
 // Macros for GPIO Port F
-#define PORTF_CLOCK       0x20    // Bit 5
-#define UNLOCK_KEY        0x4C4F434B
-#define PORTF_PINS_ALL    0x1F    // PF0–PF4
+#define PORTF_CLOCK 0x20    // Bit 5
+#define UNLOCK_KEY 0x4C4F434B
+#define PORTF_PINS_ALL 0x1F    // PF0–PF4
 #define PORTF_OUTPUT_PINS 0x0E    // PF1 (Red), PF2 (Blue), PF3 (Green)
-#define PORTF_INPUT_PINS  0x11    // PF0 (SW2) and PF4 (SW1)
+#define PORTF_INPUT_PINS 0x11    // PF0 (SW2) and PF4 (SW1)
 
 // Macros for LEDs
-#define RED_LED           0x02    // PF1
-#define BLUE_LED          0x04    // PF2
-#define GREEN_LED         0x08    // PF3
+#define RED_LED 0x02    // PF1
+#define BLUE_LED 0x04    // PF2
+#define GREEN_LED 0x08    // PF3
 
 // Macro for switch input mask
-#define SWITCHES          0x11    // PF0 | PF4
+#define SWITCHES 0x11    // PF0 | PF4
 
 // Simple delay function to debounce button press
 void delay(int time) {
