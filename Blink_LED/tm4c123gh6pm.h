@@ -12368,7 +12368,7 @@
 #define NVIC_INT_CTRL_NMI_SET   0x80000000  // NMI Set Pending
 #define NVIC_INT_CTRL_PEND_SV   0x10000000  // PendSV Set Pending
 #define NVIC_INT_CTRL_UNPEND_SV 0x08000000  // PendSV Clear Pending
-#define NVIC_INT_CTRL_PENDSTSET 0x04000000  // SysTick Set Pending
+#define NVIC_INT_CTRL_PENDSTSET 0x04000000  // Set Pending
 #define NVIC_INT_CTRL_PENDSTCLR 0x02000000  // SysTick Clear Pending
 #define NVIC_INT_CTRL_ISR_PRE   0x00800000  // Debug Interrupt Handling
 #define NVIC_INT_CTRL_ISR_PEND  0x00400000  // Interrupt Pending
